@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Approval Rating vs. Crime Rates</title>
+  <link rel ="stylesheet" href = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Web Challenge style sheet.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+<body style = "background-color: rgb(231, 230, 230);">
+  
+  <div class = container>
+    <div class = "row" style = "background-color: rgb(108, 139, 175);">
+      <div class = "col-md-12">
+        <h1>Presidential Approval Ratings vs. Crime Rates</h1>
+      </div>
+    </div>
+  </div>
+  <div class = "navbar"> 
+    <ul>
+      <li>
+        <div class = "dropdown">
+          <button class = "dropbtn">
+            <a href="Web.html">Home</a>
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class = "dropdown">
+          <button class = "dropbtn">Visualization</button>
+          <div class = "dropdown-content">
+            <a href = "Total Crime.html">Total Crime</a>
+            <a href = "Violent.html">Violent</a>
+            <a href = "Property.html">Property</a>
+            <a href = "Murder.html">Murder</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class = "dropdown">
+          <button class = "dropbtn">
+            <a href=">Comparison.html">Comparison</a>
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class = "dropdown">
+          <button class = "dropbtn">
+            <a href="Data.html">Data</a>
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class = "dropdown">
+          <button class = "dropbtn">
+            <a href="Process.html">Process</a>
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class = "dropdown">
+          <button class = "dropbtn">
+            <a href="Extra_Findings.html">Extra Findings</a>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class = "container">
+    <div class = "row" style = "background-color: white;">
+      <div class = "col-md-2">
+      </div>
+      <div class = "col-md-2 imageHolder1">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Trump.jpg"
+          class = "portrait">
+          <div class="caption"><br>Donald Trump(R) 2017-present</div>
+      </div>
+      <div class = "col-md-2 imageHolder1">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Obama.jpg"
+          class = "portrait">
+          <div class="caption"><br>Barack Obama(D) 2009-2017</div>
+      </div>
+      <div class = "col-md-2 imageHolder1">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\George W. Bush.jpg"
+        class = "portrait">
+          <div class="caption"><br>George W. Bush(R) 2001-2009</div>
+      </div>
+      <div class = "col-md-2 imageHolder1">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Clinton.jpg"
+        class = "portrait">
+          <div class="caption"><br>Bill Clinton(D) 1993-2001</div>
+      </div>
+      <div class = "col-md-2">
+      </div>
+    </div>
+
+    <div class = "row" style = "background-color: white">
+      <div class = "col-md-12">
+        <p>
+          This website displays my analysis on Presidential Approval Ratings vs Crime Rate over the last 60 years while practicing/showing off some of my HTML, CSS and Bootstrap skills.
+          On this webpage you will find 5 different tabs that you can explore: Visualizations, Comparison, Data, Process, and Extra Findings.
+        </p>
+        <ul class="left_padding">
+          <li>Visualizations: This tab will let you choose which crime type (Total Crime, Violent, Property, Murder) you would like to see against the presendential approval rating with graphs and a description </li>
+          <li>Comparison: On this page you will see all the scatter graphs next to each other</li>
+          <li>Data: Here you'll see where the data was pulled from and the table with all combined data that was used in the analysis</li>
+          <li>Process: This page will show screenshots of how the anaylsis was done using Python</li>
+          <li>Extra Findings: Here you will see any extra analysis done with this data</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "row" style = "background-color: white;">
+      <div class = "col-md-1"></div>
+      <div class = "col-md-2 imageHolder2">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\George H. W. Bush.jpg"
+        class = "portrait">
+          <div class="caption"><br>George H.      
+            W. Bush(R) 1989-1993</div>
+      </div>
+      <div class = "col-md-2 imageHolder2">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Reagan.jpg"
+          class = "portrait">
+          <div class="caption"><br>Ronald Reagan(R) 1981-1989</div>
+      </div>
+      <div class = "col-md-2 imageHolder2">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Carter.jpg"
+          class = "portrait">
+          <div class="caption"><br>Jimmy Carter(D) 1977-1981</div>
+        </div>
+      <div class = "col-md-2 imageHolder2">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Ford.jpg"
+          class = "portrait">
+        <div class="caption"><br>Gerald Ford(R) 1974-1977</div>
+      </div>
+      <div class = "col-md-2 imageHolder2">
+        <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Presidential Images\Nixon.jpg"
+          class = "portrait">
+          <div class="caption"><br>Richard Nixon(R) 1969-1974</div>
+      </div>
+      <div class = "col-md-1"></div>
+    </div>
+    
+    <div class = "row" style = "background-color: white">
+      <div class = "col-md-2">
+        <a href = "https://www.linkedin.com/in/mikayla-kosmala-b171a311a/">
+          <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Other Images\Linkedin.jpg"
+           class = "icon">
+        </a>
+        <a href = "https://github.com/Mickkay22">
+          <img src = "C:\Users\Mikayla Kosmala\Documents\Bootcamp\Homework\11-Web\Instructions\Other Images\github.jpg"
+          class = "icon">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
