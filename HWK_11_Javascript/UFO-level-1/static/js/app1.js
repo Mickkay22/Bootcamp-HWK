@@ -2,6 +2,7 @@
 var tableData = data;
 // creating a variable for the button line 45
 var button = d3.select("#filter-btn");
+var resetButton = d3.select("#reset-btn");
 // creating a variable for the tbody tag line 65
 var tbody = d3.select("tbody");
 
@@ -14,12 +15,19 @@ tableData.forEach((ufoData) => {
   });
 });
 
-console.log("hi");
-console.log("hi");
-
+resetButton.on("click",function(){
+  tableData.forEach((ufoData) => {
+    var row = tbody.append("tr");
+    Object.entries(ufoData).forEach(([key, value]) => {
+      var cell = row.append("td");
+      cell.text(value);
+    });
+  });
+})
 
 button.on("click",function() {
   // Select the input element and get the raw HTML node
+  d3.event.preventDefault();
   var inputElement = d3.select("#datetime");
   // Get the value property of the input element
   var inputValue = inputElement.property("value");

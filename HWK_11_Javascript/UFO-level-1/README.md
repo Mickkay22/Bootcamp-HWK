@@ -1,4 +1,4 @@
-﻿# JavaScript Homework - JavaScript and DOM Manipulation
+# JavaScript Homework - JavaScript and DOM Manipulation
 
 ## Background
 
@@ -10,9 +10,17 @@ That's why we are hiring you. We need you to write code that will create a table
 
 You can handle this... right? The planet Earth needs to know what we have found!
 
+## Your Task
 
-### Level 1: Automatic Table and Date Search
+### Before You Begin
 
+1. Inside your local git repository, create a directory for the Javascript challenge. Use the folder names to correspond to the challenges: **UFO-level-1** and **UFO-level-2**.
+
+2. Add your **html** files to this folder as well as your static folder containing your javascript. This will be the main script to run for analysis.
+
+3. Push the above changes to GitHub or GitLab.
+
+### Level 1: Automatic Table and Date Search (Required)
 
 * Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
 
@@ -22,7 +30,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 * Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
-### Level 2: Multiple Search Categories
+### Level 2: Multiple Search Categories (Optional)
 
 * Complete all of Level 1 criteria.
 
