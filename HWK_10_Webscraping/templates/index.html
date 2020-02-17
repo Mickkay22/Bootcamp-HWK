@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MARS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel ="stylesheet" href = "web_scraping_stylesheet.css">
+</head>
+
+<body style = "background-color: rgb(63, 51, 51);">
+    <div class="container text-center">
+        <div class = "row">
+            <h1>Mission to Mars</h1>
+            <p><a class = "btn btn-primary btn-lg" href = "/scrape" role = "button">Scrape Mars Data</a></p>
+        </div>
+        
+        <div class = "row" style = "background-color: lightgrey;">
+            <div class = "col-md-7 text-left">
+                <h2>Latest News about Mars</h2>
+                <div class = "paragraph_style">
+                    <p>{{mars.Article_title}}</p>
+                    <p>{{mars.article}}</p>
+                </div>
+            </div>
+            <div class = "col-md-5 text-left">
+                <div class = "borderbaby" id = "I_need_space">
+                    <h3>Current Weather on Mars</h3>
+                    <div class = "paragraph_style">
+                        <p>Twitter has become harder to scrape..</p>
+                        <p> What What What What What What What What What What What What What What What What What What What What </p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class = "row" style = "padding-top: 20px; background-color: lightgrey;">
+            <div class = "col-md-7">
+                <h2>Featured Image of Mars</h2>
+                <img src = "photo.jpg" style = "display: block; height: 400px;">
+            </div> 
+            <div class = "col-md-5">
+                <h3>Mars Facts</h3>
+                {{mars.}}
+            </div>   
+        </div>
+        <div class = "row" style = "padding-top: 20px; background-color: lightgrey;">
+            <div class= "col-md-3">
+                <img  class = "hemisphere_img" src = "photo.jpg">
+                <p>BLAH BLAH BLAH BLAH</p>
+            </div>
+            <div class= "col-md-3">
+                <img  class = "hemisphere_img" src = "photo.jpg">
+                <p>BLAH BLAH BLAH BLAH</p>
+            </div>
+            <div class= "col-md-3">
+                <img  class = "hemisphere_img" src = "photo.jpg">
+                <p>BLAH BLAH BLAH BLAH</p>
+            </div>
+            <div class= "col-md-3">
+                <img  class = "hemisphere_img" src = "photo.jpg">
+                <p>BLAH BLAH BLAH BLAH</p>
+            </div>
+        </div>
+  </div>
+</body>
+
+</html>
