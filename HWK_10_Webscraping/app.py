@@ -1,7 +1,7 @@
 # import necessary libraries
 from flask import Flask, render_template
 from flask_pymongo import PyMongo
-import mission_to_mars
+import scrape_mars_data
 # create instance of Flask app
 app = Flask(__name__)
 
